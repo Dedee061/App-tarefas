@@ -31,7 +31,7 @@ export default function Login({ changeStatus }) {
       
       
     } else {
-      // Aqui castramos o ususario
+      // Aqui cadastramos o ususario
       
       const user = firebase.auth().createUserWithEmailAndPassword(email, password)
       .then((user) => {
